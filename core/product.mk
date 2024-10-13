@@ -317,7 +317,7 @@ _product_list_vars += PRODUCT_CFI_INCLUDE_PATHS
 _product_list_vars += PRODUCT_CFI_EXCLUDE_PATHS
 
 # Whether the Scudo hardened allocator is disabled platform-wide
-_product_single_value_vars += PRODUCT_DISABLE_SCUDO
+_product_single_value_vars += PRODUCT_USE_SCUDO
 
 # A flag to override PRODUCT_COMPATIBLE_PROPERTY
 _product_single_value_vars += PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE
